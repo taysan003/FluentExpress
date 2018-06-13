@@ -18,7 +18,7 @@ public class MainPage extends BasePageObject<MainPage> {
         super(driver);
     }
 
-    public  void mainPage(){
+    public void mainPage(){
         getPage(URL);
     }
 

@@ -4,8 +4,6 @@
     <list default="true" id="c1864de1-2ea0-4ced-a821-d26e8b54fa58" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/express/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/express/LoginTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/express/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+            <state relative-caret-position="457">
+              <caret line="42" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -43,11 +41,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="1800">
+              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,8 +56,8 @@
       <file leaf-file-name="MainPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+            <state relative-caret-position="270">
+              <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#816#817#0" expanded="true" />
@@ -86,8 +84,8 @@
       <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/BasePageObject.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="985">
-              <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
+            <state relative-caret-position="216">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#868#869#0" expanded="true" />
@@ -118,12 +116,14 @@
       <file leaf-file-name="SignUpWorkPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+            <state relative-caret-position="333">
+              <caret line="57" column="32" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#577#578#0" expanded="true" />
                 <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#1273#1274#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,12 +169,12 @@
         <option value="$PROJECT_DIR$/src/test/java/com/express/FirstTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/pages/ProfilePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/base/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/LogInTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/express/LoginTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java" />
       </list>
     </option>
   </component>
@@ -344,7 +344,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LoginTest">
+  <component name="RunManager" selected="TestNG.SignUpTest.negativeSignUp">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -533,7 +533,7 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="SignUpTest.positiveSignUp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SignUpTest.negativeSignUp" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="FluentExpressAuto" />
       <extension name="coverage">
         <pattern>
@@ -546,7 +546,7 @@
       <option name="SUITE_NAME" />
       <option name="PACKAGE_NAME" value="com.express" />
       <option name="MAIN_CLASS_NAME" value="com.express.SignUpTest" />
-      <option name="METHOD_NAME" value="positiveSignUp" />
+      <option name="METHOD_NAME" value="negativeSignUp" />
       <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="METHOD" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -613,41 +613,23 @@
     <list>
       <item itemvalue="Maven.RunFluentExpress" />
       <item itemvalue="TestNG.TestNG" />
-      <item itemvalue="TestNG.SignUpTest.correctSignUpTitle" />
       <item itemvalue="TestNG.LoginTest" />
-      <item itemvalue="TestNG.SignUpTest" />
-      <item itemvalue="TestNG.SignUpTest.positiveSignUp" />
       <item itemvalue="TestNG.LoginTest.negativeLogInTest" />
+      <item itemvalue="TestNG.SignUpTest.negativeSignUp" />
+      <item itemvalue="TestNG.SignUpTest.correctSignUpTitle" />
+      <item itemvalue="TestNG.SignUpTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.negativeLogInTest" />
-        <item itemvalue="TestNG.SignUpTest.positiveSignUp" />
+        <item itemvalue="TestNG.SignUpTest.negativeSignUp" />
         <item itemvalue="TestNG.SignUpTest" />
         <item itemvalue="TestNG.SignUpTest.correctSignUpTitle" />
+        <item itemvalue="TestNG.LoginTest" />
+        <item itemvalue="TestNG.LoginTest.negativeLogInTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTest_correctSignUpTitle - 2018.06.12 at 23h 43m 22s.xml">
-      <configuration name="SignUpTest.correctSignUpTitle" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest - 2018.06.12 at 23h 45m 20s.xml">
-      <configuration name="SignUpTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest_positiveSignUp - 2018.06.12 at 23h 47m 05s.xml">
-      <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest_positiveSignUp - 2018.06.12 at 23h 50m 09s.xml">
-      <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest_positiveSignUp - 2018.06.12 at 23h 51m 36s.xml">
-      <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest_positiveSignUp - 2018.06.12 at 23h 57m 12s.xml">
-      <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="SignUpTest_positiveSignUp - 2018.06.12 at 23h 59m 50s.xml">
       <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
     </history-entry>
@@ -659,6 +641,24 @@
     </history-entry>
     <history-entry file="SignUpTest_positiveSignUp - 2018.06.13 at 00h 04m 54s.xml">
       <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.13 at 00h 48m 00s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.13 at 00h 48m 13s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest - 2018.06.13 at 00h 48m 31s.xml">
+      <configuration name="LoginTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTest_negativeSignUp - 2018.06.13 at 01h 01m 36s.xml">
+      <configuration name="SignUpTest.negativeSignUp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTest_negativeSignUp - 2018.06.13 at 01h 18m 20s.xml">
+      <configuration name="SignUpTest.negativeSignUp" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="SignUpTest_correctSignUpTitle - 2018.06.13 at 01h 18m 37s.xml">
+      <configuration name="SignUpTest.correctSignUpTitle" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -673,10 +673,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23542354" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24074075" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3006536" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15298508" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -791,6 +791,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#577#578#0" expanded="true" />
             <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -852,46 +854,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/BasePageObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="985">
-          <caret line="57" column="26" lean-forward="true" selection-start-line="57" selection-start-column="26" selection-end-line="57" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#905#906#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#998#999#0" expanded="true" />
-            <element signature="e#1730#1731#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1863#1864#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/express/LogInTest.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -912,10 +874,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="42" column="5" lean-forward="true" selection-start-line="29" selection-start-column="4" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="52" column="35" selection-start-line="52" selection-start-column="35" selection-end-line="52" selection-end-column="35" />
+        <state relative-caret-position="270">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#816#817#0" expanded="true" />
@@ -926,10 +916,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/LoginTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="39" column="63" selection-start-line="39" selection-start-column="63" selection-end-line="39" selection-end-column="63" />
+        <state relative-caret-position="333">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#1273#1274#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

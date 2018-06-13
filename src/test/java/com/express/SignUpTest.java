@@ -23,10 +23,10 @@ public class SignUpTest extends BaseTest {
         signUpWorkPage.pushSignUpButtonInWorkPage();
         System.out.println("Verifications");
         String actualTitle = signUpWorkPage.getTitle();
-       signUpWorkPage.waitForSignUpFinalPageToLoad();
+        signUpWorkPage.waitForSignUpFinalPageToLoad();
         Assert.assertTrue(expectedPageTitle.equals(actualTitle),"Page title is not expected.\n Expected: " + expectedPageTitle + "\nActual: " + actualTitle);
 
-}
+    }
 
     @Test
     public void correctSignUpTitle() {
@@ -40,6 +40,21 @@ public class SignUpTest extends BaseTest {
         String actualTitle = signUpWorkPage.getTitle();
         Assert.assertTrue(expectedPageTitle.equals(actualTitle),"Page title is not expected.\n Expected: "
                 + expectedPageTitle + "\nActual: " + actualTitle);
+
+    }
+
+    @Test
+    public void negativeSignUp() {
+        String expectedErrorMessage = "Email and password fields can't be empty!";
+        MainPage mainPage = new MainPage(driver);
+        mainPage.mainPage();
+        SignUpWorkPage signUpWorkPage = mainPage.pushSignUpButton();
+        signUpWorkPage.fillUpEmailAndPassword("","");
+        signUpWorkPage.pushSignUpButtonInWorkPage();
+        String errorMessage = signUpWorkPage.getSignUpErrorMessage();
+        Assert.assertTrue(errorMessage.contains(expectedErrorMessage),"Error message is not expected. Expected: " +
+                expectedErrorMessage + "\n Actual: " + errorMessage +".");
+
 
     }
 
