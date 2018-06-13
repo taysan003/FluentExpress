@@ -1,12 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="LogInTest" verbose="1" >
-    <test name="FirstTest" >
+<suite name="FirstLogInTest" verbose="1" >
+    <test name="LoginTest" >
         <classes>
-            <class name="com.express.LogInTest"></class>
+            <class name="com.express.LoginTest">
+                <methods>
+                    <exclude name="positiveLogInTest"></exclude>
+                </methods>
+            </class>
         </classes>
     </test>
-
-
-
 </suite>

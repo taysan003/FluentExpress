@@ -8,7 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SignUpTest extends BaseTest {
-   /* @Test
+    @Test
     public void positiveSignUp() {
 
         MainPage mainPage = new MainPage(driver);
@@ -18,14 +18,15 @@ public class SignUpTest extends BaseTest {
 
         System.out.println("Verifications");
         signUpWorkPage.fillUpEmailAndPassword("kostuchenko-and@mail.ru","Kostuchenko0");
-        signUpWorkPage.
         signUpWorkPage.waitForSignUpPageToLoad();
+        signUpWorkPage.waitForSignUpFinalPageToLoad();
+        signUpWorkPage.pushSignUpButtonInWorkPage();
         System.out.println("Verifications");
         String actualTitle = signUpWorkPage.getTitle();
-        signUpWorkPage.waitForSignUpFinalPageToLoad();
+       signUpWorkPage.waitForSignUpFinalPageToLoad();
         Assert.assertTrue(expectedPageTitle.equals(actualTitle),"Page title is not expected.\n Expected: " + expectedPageTitle + "\nActual: " + actualTitle);
 
-}*/
+}
 
     @Test
     public void correctSignUpTitle() {

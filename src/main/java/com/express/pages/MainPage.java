@@ -12,6 +12,7 @@ public class MainPage extends BasePageObject<MainPage> {
     private By logInButton = By.xpath("//a[@class='f6 fw4 white-90 link dib ml2 pv2 ph3 ba pointer hover-bg-white-20 bg-animate']");
     private By signUpButton = By.xpath("//a[@class='f6 fw4 white-90 hover-white link ph3 pointer dib-ns dn'][contains(text(),'Sign up')]");
     private By logInButtonInLogInMenu = By.xpath("/html/body/main/div/div/form/div[4]/button");
+    private By errorMessage = By.xpath("//p[@class='dark-red']");
 
     public MainPage(WebDriver driver) {
         super(driver);
@@ -26,11 +27,6 @@ public class MainPage extends BasePageObject<MainPage> {
         type(email, emailField);
         type(password, passwordField);
     }
-
-
-
-
-
 
     public SignUpWorkPage pushSignUpButton(){
         System.out.println("Clicking on Sign Up Button");
@@ -50,5 +46,10 @@ public class MainPage extends BasePageObject<MainPage> {
         click(logInButton);
         return new ProfilePage(driver);
 
+    }
+
+    public String getLogInErrorMessage() {
+        waitForVisibilityOf(errorMessage,10);
+        return getText(errorMessage);
     }
 }
