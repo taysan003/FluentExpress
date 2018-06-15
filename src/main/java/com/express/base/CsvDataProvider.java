@@ -16,6 +16,7 @@ public class CsvDataProvider {
     @DataProvider(name = "CsvDataProvider")
     public static Iterator<Object[]> provideData(Method method) {
         List<Object[]> list = new ArrayList<>();
+       /* String pathname_2 = "G:/PortnovSchool/FluentExpressAuto/src/test/resources/test_data/LoginTest_negativeLogInTest.csv";*/
         String pathname = "src" + File.separator + "test" + File.separator + "resources" + File.separator + "test_data"
                 + File.separator + method.getDeclaringClass().getSimpleName() + "_" + method.getName() + ".csv";
         File file = new File(pathname);
@@ -24,11 +25,12 @@ public class CsvDataProvider {
             String[] keys = reader.readNext();
             if (keys != null) {
                 String[] dataParts;
-                while ((dataParts = reader.readNext()) != null) ;
+                while ((dataParts = reader.readNext()) != null)
                 {
-                    Map<String, String> testData = new HashMap<>();
+                    Map<String, String> testData = new HashMap<String, String>();
                     for (int i = 0; i < keys.length; i++) {
                         testData.put(keys[i], dataParts[i]);
+
                     }
                     list.add(new Object[]{testData});
                 }

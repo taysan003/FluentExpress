@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1864de1-2ea0-4ced-a821-d26e8b54fa58" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/test_data/LoginTest_negativeLogInTest.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/express/base/CsvDataProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/express/base/CsvDataProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/express/LoginTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/express/LoginTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test_data/LoginTest_PositiveLoginTest.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/testng.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/express/LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/express/LoginTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/express/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="673">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="277">
+              <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,15 +36,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest_PositiveLoginTest.csv" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/test_data/LoginTest_PositiveLoginTest.csv">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="LoginTest_negativeLogInTest.csv" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/test_data/LoginTest_negativeLogInTest.csv">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="SignUpTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1680">
+            <state relative-caret-position="319">
               <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -53,7 +60,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
+            <state relative-caret-position="1200">
               <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
             </state>
           </provider>
@@ -62,10 +69,11 @@
       <file leaf-file-name="CsvDataProvider.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/CsvDataProvider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            <state relative-caret-position="416">
+              <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1116#1132#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -76,38 +84,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
               <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BasePageObject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/BasePageObject.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#905#906#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#998#999#0" expanded="true" />
-                <element signature="e#1730#1731#0" expanded="true" />
-                <element signature="e#1771#1772#0" expanded="true" />
-                <element signature="e#1816#1817#0" expanded="true" />
-                <element signature="e#1863#1864#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProfilePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/ProfilePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,13 +144,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/express/base/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/LogInTest.java" />
         <option value="$PROJECT_DIR$/src/main/resources/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/express/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/base/CsVDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/test_data/LoginTest_PositiveLoginTest.csv" />
+        <option value="$PROJECT_DIR$/src/test/java/com/express/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/express/base/CsvDataProvider.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/test_data/LoginTest_negativeLogInTest.csv" />
       </list>
     </option>
   </component>
@@ -185,11 +163,22 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="FluentExpress" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="226" />
-    <option name="y" value="84" />
+    <option name="x" value="132" />
+    <option name="y" value="68" />
     <option name="width" value="1749" />
-    <option name="height" value="840" />
+    <option name="height" value="879" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -200,9 +189,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -214,6 +203,45 @@
               <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
               <item name="FluentExpressAuto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentExpressAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentExpressAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentExpressAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="express" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentExpressAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="express" type="462c0819:PsiDirectoryNode" />
+              <item name="base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FluentExpressAuto" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="express" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
@@ -250,6 +278,71 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="test_data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="io" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 1.8 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="rt.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="lang" type="462c0819:PsiDirectoryNode" />
+              <item name="reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.2" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-6.14.2.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FluentExpress" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.testng:testng:6.14.2" type="70bed36:NamedLibraryElementNode" />
+              <item name="testng-6.14.2.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="testng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -291,7 +384,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SignUpTest.negativeSignUp">
+  <component name="RunManager" selected="TestNG.LoginTest.negativeLogInTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -568,63 +661,66 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.LoginTest.negativeLogInTest" />
+        <item itemvalue="TestNG.LoginTest" />
         <item itemvalue="TestNG.SignUpTest.negativeSignUp" />
         <item itemvalue="TestNG.SignUpTest" />
         <item itemvalue="TestNG.SignUpTest.correctSignUpTitle" />
-        <item itemvalue="TestNG.LoginTest" />
-        <item itemvalue="TestNG.LoginTest.negativeLogInTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="TestHistory">
-    <history-entry file="SignUpTest_positiveSignUp - 2018.06.13 at 00h 03m 41s.xml">
-      <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="SignUpTest_positiveSignUp - 2018.06.13 at 00h 04m 54s.xml">
-      <configuration name="SignUpTest.positiveSignUp" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LoginTest_negativeLogInTest - 2018.06.13 at 00h 48m 00s.xml">
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 15h 19m 40s.xml">
       <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest_negativeLogInTest - 2018.06.13 at 00h 48m 13s.xml">
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 15h 29m 31s.xml">
       <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LoginTest - 2018.06.13 at 00h 48m 31s.xml">
-      <configuration name="LoginTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 15h 31m 13s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_negativeSignUp - 2018.06.13 at 01h 01m 36s.xml">
-      <configuration name="SignUpTest.negativeSignUp" configurationId="TestNG" />
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 16h 16m 21s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_negativeSignUp - 2018.06.13 at 01h 18m 20s.xml">
-      <configuration name="SignUpTest.negativeSignUp" configurationId="TestNG" />
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 16h 18m 22s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_correctSignUpTitle - 2018.06.13 at 01h 18m 37s.xml">
-      <configuration name="SignUpTest.correctSignUpTitle" configurationId="TestNG" />
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 16h 19m 40s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest - 2018.06.13 at 01h 20m 42s.xml">
-      <configuration name="SignUpTest" configurationId="TestNG" />
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 16h 52m 54s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="SignUpTest_negativeSignUp - 2018.06.13 at 01h 21m 35s.xml">
-      <configuration name="SignUpTest.negativeSignUp" configurationId="TestNG" />
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 16h 55m 45s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 17h 00m 37s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="LoginTest_negativeLogInTest - 2018.06.14 at 17h 01m 11s.xml">
+      <configuration name="LoginTest.negativeLogInTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="175" y="140" width="1749" height="840" extended-state="0" />
+    <frame x="132" y="68" width="1749" height="879" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="6" visible="true" weight="0.045589104" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23542354" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19172113" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.49662617" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18827708" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30669034" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32763532" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -632,8 +728,6 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32897604" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32897604" />
     </layout>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -671,6 +765,102 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/LoginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/CsvDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1116#1132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/BasePageObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1730#1731#0" expanded="true" />
+            <element signature="e#1771#1772#0" expanded="true" />
+            <element signature="e#1816#1817#0" expanded="true" />
+            <element signature="e#1863#1864#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/ProfilePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/pages/SignUpWorkPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="57" column="32" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test_data/LoginTest_negativeLogInTest.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/express/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -769,6 +959,7 @@
           <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1116#1132#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -940,20 +1131,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+        <state relative-caret-position="1200">
+          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/6.14.2/testng-6.14.2.jar!/org/testng/SuiteRunnerWorker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2034#2035#0" expanded="true" />
+            <element signature="e#2120#2121#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="50" column="7" selection-start-line="50" selection-start-column="7" selection-end-line="50" selection-end-column="7" />
+        <state relative-caret-position="406">
+          <caret line="214" column="29" selection-start-line="214" selection-start-column="29" selection-end-line="214" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="192" column="18" selection-start-line="192" selection-start-column="18" selection-end-line="192" selection-end-column="18" />
+          <folding>
+            <element signature="e#6024#6025#0" expanded="true" />
+            <element signature="e#6052#6053#0" expanded="true" />
+            <element signature="e#6222#6223#0" expanded="true" />
+            <element signature="e#6249#6250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="1304" column="18" selection-start-line="1304" selection-start-column="18" selection-end-line="1304" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -964,28 +1183,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/CsvDataProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/express/SignUpTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="319">
+          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/express/base/CsvDataProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="27" column="63" lean-forward="true" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1116#1132#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/test_data/LoginTest_negativeLogInTest.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/express/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="673">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="277">
+          <caret line="40" column="28" lean-forward="true" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/test_data/LoginTest_PositiveLoginTest.csv">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">

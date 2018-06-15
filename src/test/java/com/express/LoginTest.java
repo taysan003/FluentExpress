@@ -1,12 +1,15 @@
 package com.express;
 
 import com.express.base.BaseTest;
+import com.express.base.CsvDataProvider;
 import com.express.pages.MainPage;
 import com.express.pages.ProfilePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
- public class LoginTest extends BaseTest {
+import java.util.Map;
+
+public class LoginTest extends BaseTest {
 
     @Test
     public void positiveLogInTest() {
@@ -27,13 +30,19 @@ import org.testng.annotations.Test;
         Assert.assertTrue(profilePage.isCorrectProfileLoaded(correctProfileName), "Profile name is not expected");
     }
 
-    @Test
-    public void negativeLogInTest() {
+    @Test(dataProvider = "CsvDataProvider", dataProviderClass = CsvDataProvider.class)
+    public void negativeLogInTest(Map<String, String> testData) {
         String expectedErrorMessage = "A user with such email and password does not exist!";
+        String testNumber = testData.get("no");
+        String email = testData.get("email");
+        String password = testData.get("password");
+        String description = testData.get("description");
+        System.out.println("Test No #" + testNumber + " for" + description + "Where\nEmail: " + email + "\nPassword:"
+                + password);
         MainPage mainPage = new MainPage(driver);
         mainPage.mainPage();
         mainPage.pushLogInButton();
-        mainPage.fillUpEmailAndPassword("kostuchenko-and@mail.com","123456");
+        mainPage.fillUpEmailAndPassword(email,password);
         mainPage.pushlogInButtonInLogInMenu();
         String errorMessage = mainPage.getLogInErrorMessage();
         Assert.assertTrue(errorMessage.contains(expectedErrorMessage),"Error message is not expected. Expected: " +
