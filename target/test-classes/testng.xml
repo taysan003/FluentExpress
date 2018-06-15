@@ -46,7 +46,9 @@
 </suite>-->
 
 <suite name="FirstLogInTest" parallel="tests" thread-count="3" >
-
+    <listeners>
+        <listener class-name="com.express.base.TestListener"></listener>
+    </listeners>
 <test name="LoginTest-FF" >
     <parameter name="browser"  value="firefox"/>
     <groups>
@@ -85,12 +87,12 @@
 
 <test name="LoginTest-ED" >
     <parameter name="browser"  value="edge"/>
-    <groups>
+    <!--<groups>
         <run>
 
             <exclude name="broken"></exclude>
         </run>
-    </groups>
+    </groups>-->
     <classes>
         <class name="com.express.LoginTest">
            <!-- <methods>
