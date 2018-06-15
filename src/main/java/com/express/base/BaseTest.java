@@ -1,22 +1,21 @@
 package com.express.base;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-
-import java.util.concurrent.TimeUnit;
+import org.testng.annotations.Parameters;
 
 public class BaseTest {
     protected WebDriver driver;
 
+    @Parameters({"browser"})
     @BeforeMethod
-    protected void methodSetUp(){
-        driver = new ChromeDriver();
+    protected void methodSetUp(String browser){
+        System.out.println("Method set up");
+        driver = BrowserFactory.getDriver(browser);
+        /*driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
-        driver.manage().window().maximize();
+        driver.manage().window().maximize();*/
         /*methodTearDown();
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
@@ -29,10 +28,8 @@ public class BaseTest {
 
     @AfterMethod
     protected void methodTearDown(){
-        driver.quit();
         System.out.println("Method Tear Down");
-        /*driver.quit();
-        driver.quit();*/
+        driver.quit();
 
     }
 

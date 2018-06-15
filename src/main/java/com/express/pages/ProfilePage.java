@@ -6,8 +6,8 @@ import org.openqa.selenium.WebDriver;
 
 public class ProfilePage extends BasePageObject<ProfilePage> {
 
-    private By resendEmailButton = By.xpath("//form[@action='/activate']//div");
-    private By almostDoneTitle = By.xpath("//div[@class='mb4 f3 b']");
+    private By submitNewTextTitle = By.xpath("//h1[@class='mt0 mb3 mb4-ns f4 b']");
+    private By leaveNote = By.xpath("//p[@class='mb2 f6 gray']");
     private By profileContactNameText = By.xpath("//span[@class='nowrap']");
 
     public  ProfilePage(WebDriver driver) {
@@ -16,8 +16,8 @@ public class ProfilePage extends BasePageObject<ProfilePage> {
 
     public void waitForProfilePageToLoad(){
         System.out.println("Waiting For Profile Page To Load");
-        waitForVisibilityOf(resendEmailButton);
-        waitForVisibilityOf(almostDoneTitle, 10);
+        waitForVisibilityOf(submitNewTextTitle);
+        waitForVisibilityOf(leaveNote, 10);
 
     }
 
