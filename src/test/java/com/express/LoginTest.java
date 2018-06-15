@@ -11,7 +11,7 @@ import java.util.Map;
 
 public class LoginTest extends BaseTest {
 
-    @Test
+    @Test (priority = 1, groups = { "positive"})
     public void positiveLogInTest() {
 
         MainPage mainPage = new MainPage(driver, log);
@@ -30,7 +30,8 @@ public class LoginTest extends BaseTest {
         /*Assert.assertTrue(profilePage.isCorrectProfileLoaded(correctProfileName), "Profile name is not expected");*/
     }
 
-    @Test(dataProvider = "CsvDataProvider", dataProviderClass = CsvDataProvider.class)
+    @Test(dataProvider = "CsvDataProvider", dataProviderClass = CsvDataProvider.class, priority = 2,
+            groups = { "negative", "broken"})
     public void negativeLogInTest(Map<String, String> testData) {
         String expectedErrorMessage = "A user with such email and password does not exist!";
         String testNumber = testData.get("no");

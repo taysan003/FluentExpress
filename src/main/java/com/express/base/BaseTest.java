@@ -13,7 +13,7 @@ public class BaseTest {
     protected WebDriver driver;
     protected Logger log;
 
-    @BeforeClass
+    @BeforeClass (alwaysRun = true)
     protected void setUpClass(ITestContext ctx) {
         String testName = ctx.getCurrentXmlTest().getName();
         log = Logger.getLogger(testName);
@@ -38,7 +38,7 @@ public class BaseTest {
         methodTearDown();*/
     }
 
-    @AfterMethod
+    @AfterMethod (alwaysRun = true)
     protected void methodTearDown(){
         log.info("Method Tear Down");
         driver.quit();

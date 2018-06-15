@@ -49,39 +49,54 @@
 
 <test name="LoginTest-FF" >
     <parameter name="browser"  value="firefox"/>
-
+    <groups>
+        <run>
+            <exclude name="broken"></exclude>
+        </run>
+    </groups>
     <classes>
         <class name="com.express.LoginTest">
-            <methods>
+           <!-- <methods>
                 <include name="positiveLogInTest"></include>
                 <include name="negativeLogInTest"></include>
-            </methods>
+            </methods>-->
         </class>
     </classes>
 </test>
 
 <test name="LoginTest-CH" >
     <parameter name="browser"  value="chrome"/>
-
+    <groups>
+        <run>
+            <exclude name="negative"></exclude>
+            <exclude name="broken"></exclude>
+        </run>
+    </groups>
     <classes>
         <class name="com.express.LoginTest">
-            <methods>
+
+          <!--  <methods>
                 <include name="positiveLogInTest"></include>
                 <include name="negativeLogInTest"></include>
-            </methods>
+            </methods>-->
         </class>
     </classes>
 </test>
 
 <test name="LoginTest-ED" >
     <parameter name="browser"  value="edge"/>
+    <groups>
+        <run>
 
+            <exclude name="broken"></exclude>
+        </run>
+    </groups>
     <classes>
         <class name="com.express.LoginTest">
-            <methods>
+           <!-- <methods>
                 <include name="positiveLogInTest"></include>
                 <include name="negativeLogInTest"></include>
-            </methods>
+            </methods>-->
         </class>
     </classes>
 </test>
