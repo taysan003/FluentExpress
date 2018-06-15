@@ -16,7 +16,7 @@ public class CsvDataProvider {
     @DataProvider(name = "CsvDataProvider")
     public static Iterator<Object[]> provideData(Method method) {
         List<Object[]> list = new ArrayList<>();
-       /* String pathname_2 = "G:/PortnovSchool/FluentExpressAuto/src/test/resources/test_data/LoginTest_negativeLogInTest.csv";*/
+
         String pathname = "src" + File.separator + "test" + File.separator + "resources" + File.separator + "test_data"
                 + File.separator + method.getDeclaringClass().getSimpleName() + "_" + method.getName() + ".csv";
         File file = new File(pathname);

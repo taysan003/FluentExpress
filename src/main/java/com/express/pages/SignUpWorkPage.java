@@ -1,8 +1,11 @@
 package com.express.pages;
 
 import com.express.base.BasePageObject;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+
 
 public class SignUpWorkPage extends BasePageObject<ProfilePage> {
     private static final String URL = "http://fluentexpress-staging.northeurope.cloudapp.azure.com/register";
@@ -18,21 +21,21 @@ public class SignUpWorkPage extends BasePageObject<ProfilePage> {
     private By errorMessage = By.xpath("//p[@class='dark-red']");
 
 
-    public SignUpWorkPage(WebDriver driver) {
-        super(driver);
+    public SignUpWorkPage(WebDriver driver, Logger log) {
+        super(driver, log);
     }
     public void signUpWorkPage(){
         getPage(URL);
     }
 
     public void waitForSignUpPageToLoad() {
-        System.out.println("Waiting For Sign Up Page To Load");
+        log.info("Waiting For Sign Up Page To Load");
         /*waitForVisibilityOf(signUpTitleOfWorkPage);*/
         waitForVisibilityOf(bodyWorkPage, 10);
 
     }
     public void waitForSignUpFinalPageToLoad() {
-        System.out.println("Waiting For Sign Up Page To Load");
+        log.info("Waiting For Sign Up Page To Load");
         /*waitForVisibilityOf(signUpTitleOfWorkPage);*/
         waitForVisibilityOf(almostDoneTitle, 10);
 
@@ -47,22 +50,22 @@ public class SignUpWorkPage extends BasePageObject<ProfilePage> {
     }
 
     public SignUpWorkPage pushCloseSign() {
-        System.out.println("Clicking on Close Sign");
+        log.info("Clicking on Close Sign");
         click(closeSign);
-        return new SignUpWorkPage(driver);
+        return new SignUpWorkPage(driver, log);
 
     }
     public SignUpWorkPage pushSignUpButtonInWorkPage(){
-        System.out.println("Clicking on Sign Up Button");
+        log.info("Clicking on Sign Up Button");
         click(signUpButton);
         /*click(signUpButton_1);*/
-        return new SignUpWorkPage(driver);
+        return new SignUpWorkPage(driver, log);
 
     }
 
 
     public void fillUpEmailAndPassword(String email, String password) {
-        System.out.println("Filling up email and password");
+        log.info("Filling up email and password");
         type(email, emailField);
         type(password, passwordField);
     }

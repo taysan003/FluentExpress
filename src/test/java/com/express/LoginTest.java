@@ -14,7 +14,7 @@ public class LoginTest extends BaseTest {
     @Test
     public void positiveLogInTest() {
 
-        MainPage mainPage = new MainPage(driver);
+        MainPage mainPage = new MainPage(driver, log);
         String expectedPageTitle = "Submit new text";
         String correctProfileName = "kostuchenko-and@mail.ru.";
         mainPage.mainPage();
@@ -23,7 +23,7 @@ public class LoginTest extends BaseTest {
         ProfilePage profilePage = mainPage.pushlogInButtonInLogInMenu();
 
         profilePage.waitForProfilePageToLoad();
-        System.out.println("Verifications");
+        log.info("Verifications");
         String actualTitle = profilePage.getTitle();
         Assert.assertTrue(expectedPageTitle.equals(actualTitle),"Page title is not expected.\n Expected: "
                + expectedPageTitle + "\nActual: " + actualTitle);
@@ -37,9 +37,9 @@ public class LoginTest extends BaseTest {
         String email = testData.get("email");
         String password = testData.get("password");
         String description = testData.get("description");
-        System.out.println("Test No #" + testNumber + " for" + description + "Where\nEmail: " + email + "\nPassword:"
+        log.info("Test No #" + testNumber + " for" + description + "Where\nEmail: " + email + "\nPassword:"
                 + password);
-        MainPage mainPage = new MainPage(driver);
+        MainPage mainPage = new MainPage(driver, log);
         mainPage.mainPage();
         mainPage.pushLogInButton();
         mainPage.fillUpEmailAndPassword(email,password);

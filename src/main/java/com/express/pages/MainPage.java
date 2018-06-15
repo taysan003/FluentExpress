@@ -1,6 +1,7 @@
 package com.express.pages;
 
 import com.express.base.BasePageObject;
+import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -14,8 +15,8 @@ public class MainPage extends BasePageObject<MainPage> {
     private By logInButtonInLogInMenu = By.xpath("/html/body/main/div/div/form/div[4]/button");
     private By errorMessage = By.xpath("//p[@class='dark-red']");
 
-    public MainPage(WebDriver driver) {
-        super(driver);
+    public MainPage(WebDriver driver, Logger log) {
+        super(driver, log);
     }
 
     public void mainPage(){
@@ -23,28 +24,28 @@ public class MainPage extends BasePageObject<MainPage> {
     }
 
     public void fillUpEmailAndPassword(String email, String password) {
-        System.out.println("Filling up email and password");
+        log.info("Filling up email and password");
         type(email, emailField);
         type(password, passwordField);
     }
 
     public SignUpWorkPage pushSignUpButton(){
-        System.out.println("Clicking on Sign Up Button");
+        log.info("Clicking on Sign Up Button");
         click(signUpButton);
-        return new SignUpWorkPage(driver);
+        return new SignUpWorkPage(driver, log);
 
     }
 
     public ProfilePage pushlogInButtonInLogInMenu(){
-        System.out.println("Clicking on Log In Button In Menue");
+        log.info("Clicking on Log In Button In Menue");
         click(logInButtonInLogInMenu);
-        return new ProfilePage(driver);
+        return new ProfilePage(driver, log);
 
     }
     public ProfilePage pushLogInButton(){
-        System.out.println("Clicking on Log In Button In Main Menue");
+        log.info("Clicking on Log In Button In Main Menue");
         click(logInButton);
-        return new ProfilePage(driver);
+        return new ProfilePage(driver, log);
 
     }
 

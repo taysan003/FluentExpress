@@ -1,5 +1,6 @@
 package com.express.base;
 
+import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -8,8 +9,9 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.concurrent.TimeUnit;
 
 public class BrowserFactory {
-    public static WebDriver getDriver(String browser) {
+    public static WebDriver getDriver(String browser, Logger log) {
         WebDriver driver;
+        log.info("Starting " + browser + "driver");
         switch (browser) {
             case "chrome":
                 driver = new ChromeDriver();
