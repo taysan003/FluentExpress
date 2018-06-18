@@ -45,7 +45,7 @@
 
 </suite>-->
 
-<suite name="FirstLogInTest" parallel="tests" thread-count="3" >
+<!--<suite name="FirstLogInTest" parallel="tests" thread-count="3" >
     <listeners>
         <listener class-name="com.express.base.TestListener"></listener>
     </listeners>
@@ -58,10 +58,10 @@
     </groups>
     <classes>
         <class name="com.express.LoginTest">
-           <!-- <methods>
-                <include name="positiveLogInTest"></include>
-                <include name="negativeLogInTest"></include>
-            </methods>-->
+            <methods>
+                <exclude name="positiveLogInTest"></exclude>
+                <exclude name="negativeLogInTest"></exclude>
+            </methods>
         </class>
     </classes>
 </test>
@@ -77,16 +77,79 @@
     <classes>
         <class name="com.express.LoginTest">
 
-          <!--  <methods>
-                <include name="positiveLogInTest"></include>
-                <include name="negativeLogInTest"></include>
-            </methods>-->
+            <methods>
+                <exclude name="positiveLogInTest"></exclude>
+                <exclude name="negativeLogInTest"></exclude>
+            </methods>
         </class>
     </classes>
 </test>
 
 <test name="LoginTest-ED" >
     <parameter name="browser"  value="edge"/>
+    &lt;!&ndash;<groups>
+        <run>
+
+            <exclude name="broken"></exclude>
+        </run>
+    </groups>&ndash;&gt;
+    <classes>
+        <class name="com.express.LoginTest">
+            <methods>
+                <exclude name="positiveLogInTest"></exclude>
+                <exclude name="negativeLogInTest"></exclude>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+
+
+</suite>-->
+
+<suite name="FirstSignUpTest" parallel="tests" thread-count="3">
+<listeners>
+    <listener class-name="com.express.base.TestListener"></listener>
+</listeners>
+<test name="SignUpTest-FF">
+    <parameter name="browser" value="firefox"/>
+    <!--<groups>
+        <run>
+            <include name="broken"></include>
+        </run>
+    </groups>-->
+    <classes>
+        <class name="com.express.SignUpTest">
+            <methods>
+               <!-- <include name="positiveSignUp"></include>-->
+                <include name="correctSignUpTitle"></include>
+                <include name="negativeSignUp"></include>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="SignUpTest-CH">
+    <parameter name="browser" value="chrome"/>
+    <groups>
+        <run>
+           <!-- <exclude name="negative"></exclude>
+            <exclude name="broken"></exclude>-->
+        </run>
+    </groups>
+    <classes>
+        <class name="com.express.SignUpTest">
+
+            <methods>
+                <include name="correctSignUpTitle"></include>
+                <include name="negativeSignUp"></include>
+            </methods>
+        </class>
+    </classes>
+</test>
+
+<test name="SignUpTest-ED">
+    <parameter name="browser" value="edge"/>
     <!--<groups>
         <run>
 
@@ -94,15 +157,31 @@
         </run>
     </groups>-->
     <classes>
-        <class name="com.express.LoginTest">
-           <!-- <methods>
-                <include name="positiveLogInTest"></include>
-                <include name="negativeLogInTest"></include>
-            </methods>-->
+        <class name="com.express.SignUpTest">
+            <methods>
+                <include name="correctSignUpTitle"></include>
+                <include name="negativeSignUp"></include>
+            </methods>
         </class>
     </classes>
 </test>
+    <test name="SignUpTest-HT">
+        <parameter name="browser" value="html"/>
+        <!--<groups>
+            <run>
 
-
-
+                <exclude name="broken"></exclude>
+            </run>
+        </groups>-->
+        <classes>
+            <class name="com.express.SignUpTest">
+                <methods>
+                    <include name="correctSignUpTitle"></include>
+                    <include name="negativeSignUp"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
 </suite>
+
+

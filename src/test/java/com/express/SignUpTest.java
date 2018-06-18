@@ -1,13 +1,15 @@
 package com.express;
 
 import com.express.base.BaseTest;
+import com.express.base.CsvDataProvider;
 import com.express.pages.MainPage;
 import com.express.pages.SignUpWorkPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class SignUpTest extends BaseTest {
-    @Test
+
+    @Test (priority = 1, groups = { "positive"})
     public void positiveSignUp() {
 
         MainPage mainPage = new MainPage(driver, log);
@@ -29,7 +31,6 @@ public class SignUpTest extends BaseTest {
 
     @Test
     public void correctSignUpTitle() {
-
         MainPage mainPage = new MainPage(driver, log);
         String expectedPageTitle = "Sign up";
         mainPage.mainPage();
@@ -42,7 +43,8 @@ public class SignUpTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(dataProvider = "CsvDataProvider", dataProviderClass = CsvDataProvider.class, priority = 2,
+            groups = { "negative"})
     public void negativeSignUp() {
         String expectedErrorMessage = "Email and password fields can't be empty!";
         MainPage mainPage = new MainPage(driver, log);

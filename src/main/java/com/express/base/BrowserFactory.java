@@ -22,12 +22,16 @@ public class BrowserFactory {
             case "edge":
                 driver = new EdgeDriver();
                 break;
+           /* case "html":
+                driver = new HtmlUnitDriver();
+                ((HtmlUnitDriver) driver).setJavascriptEnabled(true);
+                break;*/
 
             default:
                 driver = new FirefoxDriver();
                 break;
         }
-        driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         return driver;
     }
